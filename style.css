@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.items a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.items a:hover{
+    color: orange;
+}
+.active{
+    color: orange !important;
+}
+button{
+    font-size: 1.3rem;
+    background: linear-gradient(to right,orange, darkgoldenrod);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    cursor:pointer;
+    border: none;
+    /* transition: ; */
+
+}
+li ul#dropdown li{
+    display: block;
+    padding: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li ul#dropdown{
+    position: absolute;
+    z-index: 999;
+    display: none;
+    
+}
+li:hover ul#dropdown{
+    display: block;
+}
+
+.container{
+     margin-left: 80px;
+}
+#dropdown li a{
+    color:red;
+}
+ 
+
+   
